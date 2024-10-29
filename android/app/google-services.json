@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823450358675",
+    "project_id": "teachers-cabin",
+    "storage_bucket": "teachers-cabin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823450358675:android:8e5adc2c85c5f665920e66",
+        "android_client_info": {
+          "package_name": "com.example.techerscabin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG_vwXafbHXO7r4buH5ci3ddaT0uPRgPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Divisions Page</title>
+    <style>
+        /* Basic styling for divisions */
+        .division {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .row .division {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <!-- First division with an image -->
+        <div class="division">
+            <img src="https://via.placeholder.com/400x200" alt="Placeholder Image">
+        </div>
+
+        <!-- Second division with 4 options -->
+        <div class="division">
+            <h2>Select an option:</h2>
+            <ul>
+                <li>CSE</li>
+                <li>IP</li>
+                <li>EEE</li>
+                <li>ECE</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Third division with login form -->
+        <div class="division">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <!-- Fourth division with mobile phone image linking to Amazon -->
+        <div class="division">
+            <a href="https://www.amazon.com" target="_blank">
+                <img src="https://via.placeholder.com/200x400" alt="Mobile Phone">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
